@@ -1,0 +1,17 @@
+--------------------------------------                 STEPS INVOLVED IN MAKING OF THE PROJECT            ---------------------------------------------
+
+1. AWS (S3 Bucket): The retailer utilized Amazon Web Services (AWS) S3 bucket to store the raw data securely.
+                    It involved dumping the dataset into the S3 bucket and defining roles and policies to ensure proper access control.
+
+2. Snowflake (SQL): Snowflake, a cloud-based data warehousing platform, was utilized to create tables,
+                    automate data ingestion from the S3 bucket using stored procedures & tasks, and generate key performance indicators (KPIs) for the analysis.
+                    Then Connecting Jupyter notebook with snowflake for data cleaning and performing EDA.
+
+3. Python: Python is a versatile programming language commonly used in data analysis. It was employed for all data cleaning and exploratory data analysis (EDA)
+           tasks in this case study & automating the EDA using Jupyter Lab. after that sending the clean data back to snowflake for KPI making part.
+
+4. Power BI & DAX: Connecting the clean tables from SNOWFLAKE to Power BI - a powerful business intelligence tool, along with the Data Analysis Expressions (DAX) language,was employed for visualizing the data
+                   and creating measures to analyze key metrics for visualisng the data using different charts, providing insights for the business
+                   and Scheduling the refresh of the datasets in Power BI Service.
+
+
